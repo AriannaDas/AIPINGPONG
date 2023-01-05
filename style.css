@@ -1,0 +1,13 @@
+body
+{
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+}
+
+#instructions {
+    font-size: 22px;
+}
