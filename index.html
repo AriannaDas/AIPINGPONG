@@ -20,12 +20,34 @@
                 <br><br>
                 <button class = "btn btn-info instructions"> Instructions </button>
             </h3>
-            <button class = "btn btn-success" id = "play" onclick = "startGame()"> Play </button>
+            <span>
+                <button class = "btn btn-success" id = "play" onclick = "startGame()"> Play </button>
+                <button class = "btn btn-danger" id = "restart" onclick = "restart()"></button>
+            </span>
             <br><br>
+            <div id = ""></div>
             <h3 id = "statuss"></h3>
             <br><br>
             <div id = "canvas"></div>
+            <div class = "modal fade" id = "stuff">
+                <div class = "modal-dialog">
+                    <div class = "modal-content">
+                        <div class = "modal-header">
+                            <button class = "close" data-dismiss = "modal">&times;</button>
+                        </div>
+                        <div class = "modal-body">
+                            <ol>
+                                <li> Use your mouse cursor to move the bat </li>
+                                <li> Hit the ball to the other side to score a point </li>
+                                <li> Make sure to block the ball from your side so your opponnent doesn't get a point </li>
+                              </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </center>
+
+        <div class = "copy_right_footer"></div>
 
         <script src="main.js"></script>
     </body>
